@@ -3181,6 +3181,12 @@
 		(uuid "83027943-5f27-464b-8dd7-42fad0c26cf8")
 	)
 	(junction
+		(at 227.33 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8df1172f-a9e0-4fc2-9941-929a0ccf5b60")
+	)
+	(junction
 		(at 163.83 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3594,6 +3600,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 71.12) (xy 228.6 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44b9693e-ee05-445a-b3ce-72b735fa478b")
+	)
+	(wire
+		(pts
 			(xy 224.79 83.82) (xy 228.6 83.82)
 		)
 		(stroke
@@ -3711,6 +3727,16 @@
 			(type default)
 		)
 		(uuid "5ae5b207-f0a0-43c4-b552-67c21b8d9340")
+	)
+	(wire
+		(pts
+			(xy 223.52 53.34) (xy 227.33 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b1e5a8d-8113-47f9-b31b-896df1e0230e")
 	)
 	(wire
 		(pts
@@ -3844,6 +3870,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 86.36) (xy 228.6 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76af2d86-a237-4b28-bcc8-fb975831a614")
+	)
+	(wire
+		(pts
 			(xy 173.99 83.82) (xy 173.99 82.55)
 		)
 		(stroke
@@ -3924,7 +3960,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 71.12) (xy 228.6 71.12)
+			(xy 224.79 71.12) (xy 227.33 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4114,16 +4150,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 71.12) (xy 252.73 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9eb956d-0072-4d64-a913-98fa8da06a0b")
-	)
-	(wire
-		(pts
 			(xy 248.92 86.36) (xy 254 86.36)
 		)
 		(stroke
@@ -4191,6 +4217,16 @@
 			(type default)
 		)
 		(uuid "bbf46b4d-50c2-4ec6-935e-4e195cc6e3b6")
+	)
+	(wire
+		(pts
+			(xy 227.33 53.34) (xy 227.33 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd1ce9bc-94cc-4a63-8318-9bc0451ed810")
 	)
 	(wire
 		(pts
@@ -4619,17 +4655,6 @@
 		)
 		(uuid "36f82704-da25-4bfb-819d-732c1ccef1d1")
 	)
-	(label "ROT_CLK"
-		(at 252.73 71.12 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3c193c6b-3a47-4162-afd4-56ed831f3c21")
-	)
 	(label "SW_DRUM"
 		(at 252.73 83.82 0)
 		(fields_autoplaced yes)
@@ -4651,6 +4676,17 @@
 			(justify left bottom)
 		)
 		(uuid "4ef20e7e-3cf8-43d4-b143-d4d69a0fd6b3")
+	)
+	(label "ROT_CLK"
+		(at 224.79 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "52388635-bdec-4aa8-a91a-9917cc2200b2")
 	)
 	(label "LCD_SDA"
 		(at 63.5 85.09 0)
@@ -4782,7 +4818,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "c354aa36-ac4c-4c04-b277-e6d31d1be042")
+		(uuid "b06b8b0d-b7f0-4a27-bd41-40210dd032c6")
 	)
 	(label "SW_DRUM"
 		(at 86.36 90.17 180)
@@ -4857,7 +4893,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "ESP32 C3 Mini"
 			(at 240.03 62.23 90)
 			(effects
 				(font
@@ -5074,7 +5110,7 @@
 			(uuid "5dfcfb6a-5b9d-4730-8746-18bf46ec3188")
 		)
 		(instances
-			(project "ui"
+			(project "pcb"
 				(path "/9dedd1b1-3cf0-455f-a462-3cf12de645cf"
 					(reference "MCU1")
 					(unit 1)
@@ -5140,7 +5176,7 @@
 			(uuid "fd65c328-7966-435a-af22-2a3461172a17")
 		)
 		(instances
-			(project "ui"
+			(project "pcb"
 				(path "/9dedd1b1-3cf0-455f-a462-3cf12de645cf"
 					(reference "#PWR04")
 					(unit 1)
@@ -5333,9 +5369,199 @@
 			(uuid "e16f956d-11aa-4ad1-bd14-ceb9c42de0de")
 		)
 		(instances
-			(project "ui"
+			(project "pcb"
 				(path "/9dedd1b1-3cf0-455f-a462-3cf12de645cf"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 218.44 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2756d517-e6ad-4388-89c8-02df2cba8411")
+		(property "Reference" "J4"
+			(at 218.694 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3vJumper1"
+			(at 217.932 50.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 218.44 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 218.44 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 218.44 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 218.44 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 218.44 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 218.44 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 218.44 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 218.44 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 218.44 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 218.44 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 218.44 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 218.44 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 218.44 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 218.44 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 218.44 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 218.44 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65cca55f-d123-4bdc-b735-a17c58f770a5")
+		)
+		(instances
+			(project "pcb"
+				(path "/9dedd1b1-3cf0-455f-a462-3cf12de645cf"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -5523,7 +5749,7 @@
 			(uuid "3d66925f-5c36-420d-85c3-8dc605b0dd07")
 		)
 		(instances
-			(project "ui"
+			(project "pcb"
 				(path "/9dedd1b1-3cf0-455f-a462-3cf12de645cf"
 					(reference "J3")
 					(unit 1)
@@ -5716,7 +5942,7 @@
 			(uuid "7a1283bb-774f-4497-a194-205d2b094370")
 		)
 		(instances
-			(project "ui"
+			(project "pcb"
 				(path "/9dedd1b1-3cf0-455f-a462-3cf12de645cf"
 					(reference "C1")
 					(unit 1)
@@ -5909,7 +6135,7 @@
 			(uuid "8fa77a54-16d7-492c-bdb7-c04b9fb4c2c0")
 		)
 		(instances
-			(project "ui"
+			(project "pcb"
 				(path "/9dedd1b1-3cf0-455f-a462-3cf12de645cf"
 					(reference "R9")
 					(unit 1)
@@ -5975,7 +6201,7 @@
 			(uuid "b5a70653-d392-4414-a890-31ed017d8730")
 		)
 		(instances
-			(project "ui"
+			(project "pcb"
 				(path "/9dedd1b1-3cf0-455f-a462-3cf12de645cf"
 					(reference "#PWR05")
 					(unit 1)
@@ -6168,7 +6394,7 @@
 			(uuid "d275c73f-f918-4bb8-b26c-57aed4b1bd91")
 		)
 		(instances
-			(project "ui"
+			(project "pcb"
 				(path "/9dedd1b1-3cf0-455f-a462-3cf12de645cf"
 					(reference "R8")
 					(unit 1)
@@ -6234,7 +6460,7 @@
 			(uuid "21e3b0da-36a3-4c2e-845b-4e4f14391895")
 		)
 		(instances
-			(project "ui"
+			(project "pcb"
 				(path "/9dedd1b1-3cf0-455f-a462-3cf12de645cf"
 					(reference "#PWR08")
 					(unit 1)
@@ -6427,7 +6653,7 @@
 			(uuid "d1fe70ae-9ebf-4035-8eab-37de7716db70")
 		)
 		(instances
-			(project "ui"
+			(project "pcb"
 				(path "/9dedd1b1-3cf0-455f-a462-3cf12de645cf"
 					(reference "SWDRUM1")
 					(unit 1)
@@ -6639,7 +6865,7 @@
 			(uuid "972dd384-7838-474e-869b-e3ca5d3bbe0e")
 		)
 		(instances
-			(project "ui"
+			(project "pcb"
 				(path "/9dedd1b1-3cf0-455f-a462-3cf12de645cf"
 					(reference "LCD1")
 					(unit 1)
@@ -6834,7 +7060,7 @@
 			(uuid "bae02a09-a795-494c-8576-266d7bf3cb9e")
 		)
 		(instances
-			(project "ui"
+			(project "pcb"
 				(path "/9dedd1b1-3cf0-455f-a462-3cf12de645cf"
 					(reference "R1")
 					(unit 1)
@@ -7027,7 +7253,7 @@
 			(uuid "17016bdc-f883-45f7-bbff-d47611dccf24")
 		)
 		(instances
-			(project "ui"
+			(project "pcb"
 				(path "/9dedd1b1-3cf0-455f-a462-3cf12de645cf"
 					(reference "D1")
 					(unit 1)
@@ -7223,7 +7449,7 @@
 			(uuid "024be55f-1e82-468e-bf70-31b2eabb41f2")
 		)
 		(instances
-			(project "ui"
+			(project "pcb"
 				(path "/9dedd1b1-3cf0-455f-a462-3cf12de645cf"
 					(reference "R6")
 					(unit 1)
@@ -7429,7 +7655,7 @@
 			(uuid "8816d2b1-6093-42b3-8e14-27153384ca1b")
 		)
 		(instances
-			(project "ui"
+			(project "pcb"
 				(path "/9dedd1b1-3cf0-455f-a462-3cf12de645cf"
 					(reference "SW1")
 					(unit 1)
@@ -7619,7 +7845,7 @@
 			(uuid "8d117dea-deb8-44e0-91a2-bce1313b512d")
 		)
 		(instances
-			(project "ui"
+			(project "pcb"
 				(path "/9dedd1b1-3cf0-455f-a462-3cf12de645cf"
 					(reference "J2")
 					(unit 1)
@@ -7842,7 +8068,7 @@
 			(uuid "12bf8c68-75bc-4751-931a-a8b4d82459e2")
 		)
 		(instances
-			(project "ui"
+			(project "pcb"
 				(path "/9dedd1b1-3cf0-455f-a462-3cf12de645cf"
 					(reference "LVL1")
 					(unit 1)
@@ -7907,7 +8133,7 @@
 			(uuid "8d3652cf-23c3-4e6f-b022-c927267e1f68")
 		)
 		(instances
-			(project "ui"
+			(project "pcb"
 				(path "/9dedd1b1-3cf0-455f-a462-3cf12de645cf"
 					(reference "#PWR03")
 					(unit 1)
@@ -7972,7 +8198,7 @@
 			(uuid "adb03d54-7266-47da-aaaa-49fb4cab1853")
 		)
 		(instances
-			(project "ui"
+			(project "pcb"
 				(path "/9dedd1b1-3cf0-455f-a462-3cf12de645cf"
 					(reference "#PWR06")
 					(unit 1)
@@ -8037,7 +8263,7 @@
 			(uuid "4a5452c3-ed76-46b0-a9af-774bdaa25f68")
 		)
 		(instances
-			(project "ui"
+			(project "pcb"
 				(path "/9dedd1b1-3cf0-455f-a462-3cf12de645cf"
 					(reference "#PWR07")
 					(unit 1)
@@ -8232,7 +8458,7 @@
 			(uuid "ddca7f2c-5a25-4fd2-b794-428f4ecf89bb")
 		)
 		(instances
-			(project "ui"
+			(project "pcb"
 				(path "/9dedd1b1-3cf0-455f-a462-3cf12de645cf"
 					(reference "R4")
 					(unit 1)
@@ -8427,7 +8653,7 @@
 			(uuid "f3fb47aa-5014-47c9-83b6-0d707770a421")
 		)
 		(instances
-			(project "ui"
+			(project "pcb"
 				(path "/9dedd1b1-3cf0-455f-a462-3cf12de645cf"
 					(reference "R3")
 					(unit 1)
@@ -8622,7 +8848,7 @@
 			(uuid "1549476d-e136-4152-8a4f-9451c3d15bc2")
 		)
 		(instances
-			(project "ui"
+			(project "pcb"
 				(path "/9dedd1b1-3cf0-455f-a462-3cf12de645cf"
 					(reference "R2")
 					(unit 1)
@@ -8828,7 +9054,7 @@
 			(uuid "25b9736a-7fda-4828-9dca-b0e9ea3d62ae")
 		)
 		(instances
-			(project "ui"
+			(project "pcb"
 				(path "/9dedd1b1-3cf0-455f-a462-3cf12de645cf"
 					(reference "J1")
 					(unit 1)
@@ -9024,7 +9250,7 @@
 			(uuid "79077624-e635-4e4f-9c48-aa487bfef54d")
 		)
 		(instances
-			(project "ui"
+			(project "pcb"
 				(path "/9dedd1b1-3cf0-455f-a462-3cf12de645cf"
 					(reference "R5")
 					(unit 1)
@@ -9227,7 +9453,7 @@
 			(uuid "68b47926-1a4a-43ef-87fe-4b423b45b2e5")
 		)
 		(instances
-			(project "ui"
+			(project "pcb"
 				(path "/9dedd1b1-3cf0-455f-a462-3cf12de645cf"
 					(reference "USB1")
 					(unit 1)
@@ -9292,7 +9518,7 @@
 			(uuid "91a06a97-1b7b-4469-a8b6-a53947128f37")
 		)
 		(instances
-			(project "ui"
+			(project "pcb"
 				(path "/9dedd1b1-3cf0-455f-a462-3cf12de645cf"
 					(reference "#PWR02")
 					(unit 1)
@@ -9491,7 +9717,7 @@
 			(uuid "322a5652-8c63-4407-927f-ed24e7b6e029")
 		)
 		(instances
-			(project "ui"
+			(project "pcb"
 				(path "/9dedd1b1-3cf0-455f-a462-3cf12de645cf"
 					(reference "U1")
 					(unit 1)
@@ -9684,7 +9910,7 @@
 			(uuid "6a114763-3dae-49c6-8e1e-2f7aecf74a42")
 		)
 		(instances
-			(project "ui"
+			(project "pcb"
 				(path "/9dedd1b1-3cf0-455f-a462-3cf12de645cf"
 					(reference "SWCOOL1")
 					(unit 1)
@@ -9750,7 +9976,7 @@
 			(uuid "de340467-f49d-417f-9b19-e1ffae2ed8de")
 		)
 		(instances
-			(project "ui"
+			(project "pcb"
 				(path "/9dedd1b1-3cf0-455f-a462-3cf12de645cf"
 					(reference "#PWR01")
 					(unit 1)
