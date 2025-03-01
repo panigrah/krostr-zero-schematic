@@ -1,0 +1,5 @@
+.DS_Store
+gerber*/**
+fp-info-cache
+pcb-backups/**
+*.lck
