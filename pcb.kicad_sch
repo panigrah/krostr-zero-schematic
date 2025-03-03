@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "9dedd1b1-3cf0-455f-a462-3cf12de645cf")
 	(paper "A4")
+	(title_block
+		(title "krostr esp32s3 controller")
+		(company "www.kroster.com")
+	)
 	(lib_symbols
 		(symbol "1_mycustom_symbol_library:Bidirectional Level Shifter Board"
 			(exclude_from_sim no)
